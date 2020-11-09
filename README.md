@@ -15,18 +15,6 @@ It is simple Bomberman game.
 
 ## Some Screenshots
 
-<details>
-
-<summary>MainMenu.png</summary>
-
 ![MainMenu.png](./MainMenu.png)
 
-</details>
-
-<details>
-
-<summary>GamePlayMenu.png</summary>
-
 ![GamePlayMenu.png](./GamePlayMenu.png)
-
-</details>
