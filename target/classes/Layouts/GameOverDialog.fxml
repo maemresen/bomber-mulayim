@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.net.*?>
-<?import java.lang.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.geometry.*?>
-<?import javafx.scene.image.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
-
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
 <VBox fx:id="rootBox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="510.0" spacing="20.0" styleClass="transparentBacground" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GameOverDialogController">
    <children>
       <ImageView fitHeight="135.0" fitWidth="413.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../GameTextures/GameOver.PNG" />
+            <Image url="@../../resources/GameTextures/GameOver.PNG" />
          </image>
       </ImageView>
       <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
@@ -26,7 +24,7 @@
                   </Label>
                   <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../GameTextures/winnerCup.png" />
+                        <Image url="@../../resources/GameTextures/winnerCup.png" />
                      </image>
                   </ImageView>
                   <Label fx:id="winnerName" text="Label" textFill="WHITE">
@@ -52,7 +50,7 @@
                   </Label>
                   <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../GameTextures/loserCup.png" />
+                        <Image url="@../../resources/GameTextures/loserCup.png" />
                      </image>
                   </ImageView>
                   <Label fx:id="looserName" text="Label" textFill="WHITE">

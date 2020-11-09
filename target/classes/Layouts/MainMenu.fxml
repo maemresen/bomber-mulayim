@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.text.*?>
-<?import java.net.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.control.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
 <?import javafx.scene.layout.*?>
-
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
 <Pane fx:id="mainMenuPane" maxHeight="481.0" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="800.0" styleClass="myBackground" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0">

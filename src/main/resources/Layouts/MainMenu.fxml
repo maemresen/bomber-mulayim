@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<Pane fx:id="mainMenuPane" maxHeight="481.0" maxWidth="800.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="481.0" prefWidth="800.0" styleClass="myBackground" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+   <children>
+      <HBox prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Button ellipsisString="" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#options" prefHeight="57.0" prefWidth="74.0" styleClass="optionBtn">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button ellipsisString="" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#mute" prefHeight="57.0" prefWidth="51.0" styleClass="soundBtn">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" layoutX="249.0" layoutY="71.0" prefHeight="285.0" prefWidth="303.0" spacing="10.0">
+         <children>
+            <Button fx:id="playButton" ellipsisString="" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playGame" onMouseEntered="#hoverOn" onMouseExited="#hoverOff" prefHeight="85.0" prefWidth="230.0" styleClass="playBtn" textFill="WHITE">
+               <font>
+                  <Font name="Droid Serif Bold" size="36.0" />
+               </font>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></Button>
+            <Button fx:id="playLanButton" ellipsisString="" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#playLanGame" onMouseEntered="#hoverOn" onMouseExited="#hoverOff" opacity="0.93" prefHeight="85.0" prefWidth="230.0" styleClass="playLanBtn" text="L A N" disable="true" textFill="WHITE">
+               <font>
+                  <Font name="LKLUG" size="36.0" />
+               </font>
+            </Button>
+            <Button fx:id="exitButton" ellipsisString="" mnemonicParsing="false" onAction="#exitGame" onMouseEntered="#hoverOn" onMouseExited="#hoverOff" prefHeight="72.0" prefWidth="230.0" styleClass="exitBtn" />
+         </children>
+      </VBox>
+   </children>
+   <stylesheets>
+      <URL value="@../StyleFiles/ButtonStyle.css" />
+      <URL value="@../StyleFiles/BackgroundStyle.css" />
+   </stylesheets>
+</Pane>

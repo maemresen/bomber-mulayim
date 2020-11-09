@@ -1,0 +1,14 @@
+.myBackground {
+ 	-fx-background-image: url('../GameTextures/BubbleBackgroundTextures/BubbleBackground.png');
+
+ 	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-color: transparent;
+}
+
+
+
+
+.transparentBacground{
+	-fx-background-color : rgba(0,0,0,0.7) ;
+}

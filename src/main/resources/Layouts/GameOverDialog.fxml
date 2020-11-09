@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<VBox fx:id="rootBox" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="510.0" spacing="20.0" styleClass="transparentBacground" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GameOverDialogController">
+   <children>
+      <ImageView fitHeight="135.0" fitWidth="413.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../resources/GameTextures/GameOver.PNG" />
+         </image>
+      </ImageView>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="100.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="winnerName1" text="Winner !!" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/GameTextures/winnerCup.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="winnerName" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fx:id="winnerView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Label fx:id="looserName1" text="Loser !!" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../resources/GameTextures/loserCup.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="looserName" text="Label" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="30.0" top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ImageView fx:id="looserView" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Button mnemonicParsing="false" onAction="#goHome" prefHeight="46.0" prefWidth="108.0" styleClass="clientButtons" text="Main Menu" />
+   </children>
+   <stylesheets>
+      <URL value="@../StyleFiles/ButtonStyle.css" />
+      <URL value="@../StyleFiles/BackgroundStyle.css" />
+   </stylesheets>
+</VBox>

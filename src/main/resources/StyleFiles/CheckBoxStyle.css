@@ -1,0 +1,19 @@
+.myCheckBox:selected .box{
+
+	-fx-background-color:green;
+}
+.myCheckBox .box{
+
+
+	-fx-background-color:red;
+	-fx-padding: 5px;
+}
+
+.myCheckBox:selected .mark{
+
+	-fx-background-color:green;
+}
+
+
+
+
