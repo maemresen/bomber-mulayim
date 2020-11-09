@@ -30,11 +30,3 @@ It is simple Bomberman game.
 ![GamePlayMenu.png](./GamePlayMenu.png)
 
 </details>
-
-<details>
-
-<summary>GameOverDialog.png</summary>
-
-![GameOverDialog.png](./GameOverDialog.png)
-
-</details>
